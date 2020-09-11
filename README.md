@@ -1,1 +1,1 @@
-These projects teach us how to use the shell and write shell scripts. Most of the files are executable shell scripts.
+These projects teach us how to use the shell and write shell scripts. Most of the files are executable shell scripts. They consist of looking around the shell, manipulating files in the shell, altering file/directory permissions, and other related concepts.
