@@ -1,1 +1,1 @@
-This project is about learning shell basics.
+These projects teach us how to use the shell and write shell scripts. Most of the files are executable shell scripts.
