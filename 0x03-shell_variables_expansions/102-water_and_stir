@@ -1,0 +1,5 @@
+#!/bin/bash
+numWater=$(echo $WATER | tr water 01234)
+numStir=$(echo $STIR | tr stir. 01234)
+sum=$((5#$numWater+5#$numStir))
+printf "%o\n" $sum | tr 01234567 behlnort
