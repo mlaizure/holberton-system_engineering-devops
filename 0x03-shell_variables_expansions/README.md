@@ -1,1 +1,22 @@
-Will update this with script descriptions
+0 - alias ls="rm*" makes ls an alias for rm*
+1 - echo hello $USER prints "hello" and the current user
+2 - export PATH="$PATH:/action" adds the action directory to the PATH
+3 - echo "$PATH" | tr ":" "\n" | wc -l counts the number of directories in the PATH
+4 - printenv lists environmental variables
+5 - set lists all local and environmental variables and functions
+6 - export BETTY="Holberton" creates a local variable
+7 - export HOLBERTON="Betty" creates a global variable
+8 - echo "$((128+$TRUEKNOWLEDGE))" adds 128 with the value stored in the variable TRUEKNOWLEDGE
+9 - echo "$(($POWER/$DIVIDE)) prints the result of dividing the variable POWER by the variable DIVIDE
+10 - echo "$((BREATH**LOVE)) displays the result of the variable BREATH to the power of the variable LOVE
+11 - printf "$((2#BINARY))" converts the value of the BINARY variable from base 2 to base 10
+12 - echo {a..z}{a..z} | tr " " "\n" | grep -v "oo" prints all possible combinations of two lowercase letters except oo.
+13 - printf "%.2f\n" "$NUM" prints a number (variable NUM) with tw decimal places
+14 - printf "%x\n" "$DECIMAL" converts a base 10 number (variable DECIMAL) to base 16
+15 - https://www.linkedin.com/pulse/what-does-executing-bash-command-ls-c-do-maddi-laizure/?trackingId=5hbWKHH6QlOEHgGlUQfNyQ%3D%3D
+16 - https://www.linkedin.com/pulse/hard-link-vs-symbolic-soft-maddi-laizure/?trackingId=5DCyOSCSShO6rRWZ%2Fd8OVA%3D%3D
+17 - cat | tr 'A-Za-z' 'N-ZA-Mn-za-m' encodes and decodes text using rot13
+18 - can -n | grep -Pv -e "^\s+.*[02468]\t" | cut -f 2- prints every other line from the input starting with the first line
+19 - print "%o\n" $((5#$(echo $WATER | tr water 01234)+5#(echo $STIR | tr stir. 01234))) | tr 01234567 behlnort adds WATER (value "ewwatratewa") and STIr. (value "ti.itirtrtr") together to get holberton
+
+All of these files except 15 and 16 are executable shell scripts
