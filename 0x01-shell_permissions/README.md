@@ -1,21 +1,21 @@
-0 - su betty changes the userID to betty
-1 - id -un prints the effective userid of current usser
-2 - groups pints all the groups the current user is in
-3 - chown changes the owner of the file
-4 - touch creates an empty file
-5 - chmod u+x addes execute permissions to owner
-6 - chmod ug+x o+r adds appropraite permissions
-7 - chmod a+x adds execution permissions to everyone
-8 - chmod 007 gives no permissions to owner and group and all permissions to other users
-9 - chmod 753 gives appropriate permissions
-10 - chmod --reference=RFILE gives mirrored permissions
-11 - chmod -R a+X changes execute permission for directories but not files
-12 - mkdir -m751 makes a directories with specific permissions
-13 - chgrp changes group ownership
-14 - chown user:group changes user and group ownership
-15 - chown -h affects symbolic links
-16 - chown --from=CURRENT_OWNER changes file ownership from one user to another
-17 - a script that plays an ASCII animation of Star Wars Episode IV
-18 - a man page on eniac
+Files 0 - 17 are executable shell scripts
 
-(Files 0 - 17 are executable shell scripts)
+- 0: su betty changes the userID to betty
+- 1: id -un prints the effective userid of current usser
+- 2: groups pints all the groups the current user is in
+- 3: chown changes the owner of the file
+- 4: touch creates an empty file
+- 5: chmod u+x addes execute permissions to owner
+- 6: chmod ug+x o+r adds appropraite permissions
+- 7: chmod a+x adds execution permissions to everyone
+- 8: chmod 007 gives no permissions to owner and group and all permissions to other users
+- 9: chmod 753 gives appropriate permissions
+- 10: chmod --reference=RFILE gives mirrored permissions
+- 11: chmod -R a+X changes execute permission for directories but not files
+- 12: mkdir -m751 makes a directories with specific permissions
+- 13: chgrp changes group ownership
+- 14: chown user:group changes user and group ownership
+- 15: chown -h affects symbolic links
+- 16: chown --from=CURRENT_OWNER changes file ownership from one user to another
+- 17: a script that plays an ASCII animation of Star Wars Episode IV
+- 18: a man page on eniac
