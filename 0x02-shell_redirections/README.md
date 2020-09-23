@@ -23,9 +23,9 @@ All of these files are executable bash shell scripts
 - 20: tr -d Cc deletes the cs in Chicago
 - 21: rev reverses input
 - 22: cut -d : cuts based on colons and the -f 1,6 option tells it which fields to display, then you use sort to sort based on users
-- 23: find ./ -empty -printf "%f\n" finds all the empty files and directories in the current directory and all sub-directories
-- 24: find . -name "*.gif" -type f -printf "%f\n" | rev | cut -c 5- | rev | LC_ALL=C sort -f lists files (type) that have .gif extensions (name) displays without extension (rev | cut | rev) and wihtout path (printf) and sorts by byte values but case-insensitive (LC_ALL=C sort -f)
-- 25: echo "$(cut -c 1 | tr -d "/n")" cuts the first letter off each line, trims the newlines in the output, and hten echo appends a newline to the end
-- 26: tail -n +2 | cut -f 1 | sort | uniq -c | sort -gr | head -11 | rev | cut -d -f 1 | rev ; tail strips off the header, cut deletes everything except the first column, sort sorts things together so uniq can number and squash them, sort again by number and in reverse so biggest at the top, head takes the top 11, rev cut rev to take the number back off
+- 100: (23) find ./ -empty -printf "%f\n" finds all the empty files and directories in the current directory and all sub-directories
+- 101: (24) find . -name "*.gif" -type f -printf "%f\n" | rev | cut -c 5- | rev | LC_ALL=C sort -f lists files (type) that have .gif extensions (name) displays without extension (rev | cut | rev) and wihtout path (printf) and sorts by byte values but case-insensitive (LC_ALL=C sort -f)
+- 102: (25) echo "$(cut -c 1 | tr -d "/n")" cuts the first letter off each line, trims the newlines in the output, and hten echo appends a newline to the end
+- 103: (26) tail -n +2 | cut -f 1 | sort | uniq -c | sort -gr | head -11 | rev | cut -d -f 1 | rev ; tail strips off the header, cut deletes everything except the first column, sort sorts things together so uniq can number and squash them, sort again by number and in reverse so biggest at the top, head takes the top 11, rev cut rev to take the number back off
 
 rev cut rev is so you can take the first field if there's not a clear delimeter (delimeter might occur inside parts of the input)
