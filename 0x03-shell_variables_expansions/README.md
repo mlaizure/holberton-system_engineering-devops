@@ -17,6 +17,6 @@ All of these files except 15 and 16 are executable shell scripts
 - 14: printf "%x\n" "$DECIMAL" converts a base 10 number (variable DECIMAL) to base 16
 - 15: https://www.linkedin.com/pulse/what-does-executing-bash-command-ls-c-do-maddi-laizure/?trackingId=5hbWKHH6QlOEHgGlUQfNyQ%3D%3D
 - 16: https://www.linkedin.com/pulse/hard-link-vs-symbolic-soft-maddi-laizure/?trackingId=5DCyOSCSShO6rRWZ%2Fd8OVA%3D%3D
-- 17: cat | tr 'A-Za-z' 'N-ZA-Mn-za-m' encodes and decodes text using rot13
-- 18: can -n | grep -Pv -e "^\s+.*[02468]\t" | cut -f 2- prints every other line from the input starting with the first line
-- 19: print "%o\n" $((5#$(echo $WATER | tr water 01234)+5#(echo $STIR | tr stir. 01234))) | tr 01234567 behlnort adds WATER (value "ewwatratewa") and STIr. (value "ti.itirtrtr") together to get holberton
+- 100: (17) cat | tr 'A-Za-z' 'N-ZA-Mn-za-m' encodes and decodes text using rot13
+- 101: (18) can -n | grep -Pv -e "^\s+.*[02468]\t" | cut -f 2- prints every other line from the input starting with the first line
+- 102: (19) print "%o\n" $((5#$(echo $WATER | tr water 01234)+5#(echo $STIR | tr stir. 01234))) | tr 01234567 behlnort adds WATER (value "ewwatratewa") and STIr. (value "ti.itirtrtr") together to get holberton
