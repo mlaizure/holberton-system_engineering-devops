@@ -17,5 +17,5 @@ Files 0 - 17 are executable shell scripts
 - 14: chown user:group changes user and group ownership
 - 15: chown -h affects symbolic links
 - 16: chown --from=CURRENT_OWNER changes file ownership from one user to another
-- 17: a script that plays an ASCII animation of Star Wars Episode IV
-- 18: a man page on eniac
+- 100: (17) a script that plays an ASCII animation of Star Wars Episode IV
+- 101: (18) a man page on eniac
