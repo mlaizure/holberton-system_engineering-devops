@@ -1,15 +1,15 @@
 #!/usr/bin/env bash
 # displays information about the holbertonschool file
-if [ -e holbertonschool ]
+if [ -e "holbertonschool" ]
 then
 	echo "holbertonschool file exists"
-	if [ -s holbertonschool ]
+	if [ -s "holbertonschool" ]
 	then
 		echo "holbertonschool file is not empty"
 	else
 		echo "holbertonshcool file is empty"
 	fi
-	if [ -f holbertonschool ]
+	if [ -f "holbertonschool" ]
 	then
 		echo "holbertonschool is a regular file"
 	fi
