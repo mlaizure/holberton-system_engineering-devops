@@ -1,0 +1,11 @@
+- 0: create a SSH-RSA key pair
+- 1: Displays `Holberton School` 10 times using a `for` loop
+- 2: Displays `Holberton School` 10 times using a `while` loop
+- 3: Displays `Holberton School` 10 times using an `until` loop
+- 4: Displays `Holberton School` 10 times but displays `Hi` on 9th iteration using `while` loop and `if` statement
+- 5: `while` loop with intermittent displays using `if` statements
+- 6: `while` loop with itermittent displays using `case` statement
+- 7: displays the time for 12 hours and 59 mins using `while` loop
+- 8: displays the content of the current directory in list format using `for` loop
+- 9: displays information about the `holbertonschool` file
+- 10: FizzBuzz

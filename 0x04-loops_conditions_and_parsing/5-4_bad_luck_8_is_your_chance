@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# displays numbers and messages intermittently
+i=0
+while [ $i -lt 10 ]
+do
+	if [ $i -eq 3 ]
+	then
+		echo "bad luck"
+	elif [ $i -eq 7 ]
+	then
+		echo "good luck"
+	else
+		echo "Holberton School"
+	fi
+	let i++
+done
