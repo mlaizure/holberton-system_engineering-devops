@@ -9,3 +9,7 @@
 - 8: displays the content of the current directory in list format using `for` loop
 - 9: displays information about the `holbertonschool` file
 - 10: FizzBuzz
+- 100: (11) displays edited content of the file `/etc/passwd` using read and cut
+- 101: (12) displays edited content of the file `etc/passwd` using read -a
+- 102: (13) uses `awk` to parse visitor IP and HTTP status code from apache log
+- 103: (14) sorts data from previous task
