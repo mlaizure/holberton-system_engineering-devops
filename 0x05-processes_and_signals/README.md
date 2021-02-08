@@ -7,3 +7,4 @@
 - 6: stops process in file 4
 - 7: displays `To infinity and beyond` indefinitely with `sleep 2` between each iteration and `I am invincible!!!` when receiving a `SIGTERM` signal
 - 8: kills process in previous file
+- 100: (9) displays `To infinity and beyond` indefinitely and creates a file containing its PID. Custom behaviors for SIGTERM, SIGINT, and SIGQUIT
