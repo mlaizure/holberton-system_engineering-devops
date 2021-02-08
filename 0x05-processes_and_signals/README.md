@@ -1,0 +1,9 @@
+- 0: displays its own PID
+- 1: displays a list of currently running processes
+- 2: displays lines containing the `bash` word
+- 3: displays the PID and process name of processes whose name contains `bash`
+- 4: displays `To infinity and beyond` indefinitely
+- 5: stops process in previous file using kill
+- 6: stops process in file 4
+- 7: displays `To infinity and beyond` indefinitely with `sleep 2` between each iteration and `I am invincible!!!` when receiving a `SIGTERM` signal
+- 8: kills process in previous file
