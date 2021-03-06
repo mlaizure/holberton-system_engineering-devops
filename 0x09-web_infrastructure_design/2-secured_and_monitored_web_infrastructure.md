@@ -1,1 +1,1 @@
-<img src="https://raw.githubusercontent.com/mlaizure/holberton-system_engineering-devops/master/0x09-web_infrastructure_design/raw_images/2-secured_and_monitored_web_infrastructure.jpg" style="width:max-width">
+<img src="https://raw.githubusercontent.com/mlaizure/holberton-system_engineering-devops/master/0x09-web_infrastructure_design/raw_images/2-secured_and_monitored_web_infrastructure.jpg">
