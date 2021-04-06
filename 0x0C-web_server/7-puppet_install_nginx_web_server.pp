@@ -2,6 +2,7 @@
 include stdlib
 
 package { 'nginx':
+  ensure  => 'latest',
   require => Exec['apt-get update'],
 }
 
