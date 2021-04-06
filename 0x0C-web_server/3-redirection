@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# configures nginx so /redirect_me redirects to another page
+apt-get -y update
+apt-get -y install nginx
+echo "Holberton School" > /var/www/html/index.html
+redir="location /redirect_me {\n  return 301 https://bit.ly/3rTuCnC;\n}"
+sed -r -i "/^\s+server_name .+;/a $redir" /etc/nginx/sites-available/default
+service nginx restart
