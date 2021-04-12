@@ -24,6 +24,7 @@ file_line { 'Redirect Me':
 }
 
 file { 'Error Page Text':
+  ensure  => 'file'
   path    => '/var/www/html/my_404.html',
   content => "Ceci n'est pas une page",
   require => Package['nginx'],
