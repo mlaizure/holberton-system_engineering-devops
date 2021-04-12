@@ -22,6 +22,7 @@ exec { 'apt-get-update':
 
 -> file { 'Error Page Text':
   path    => '/var/www/html/my_404.html'
+  ensure  => 'present',
   content => "Ceci n'est pas une page",
 }
 
