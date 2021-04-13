@@ -2,4 +2,4 @@
 # get nginx listening on port 80
 ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 service nginx restart
-sed -i 's@status_of_proc -p $PID@status_of_proc -p aaa@' /etc/init.d/nginx
+sed -i "s@status_of_proc -p \$PID@status_of_proc -p aaa@" /etc/init.d/nginx
