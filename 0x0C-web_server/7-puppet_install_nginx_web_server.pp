@@ -12,7 +12,7 @@ package { 'nginx':
 
 file_line { 'Holberton School':
   path    => '/var/www/html/index.html',
-  line    => 'Holberton School',
+  line    => "Holberton School",
   require => Package['nginx'],
 }
 
