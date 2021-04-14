@@ -10,9 +10,10 @@ package { 'nginx':
   require => Exec['apt-get-update'],
 }
 
-file_line { 'Holberton School':
+file { 'Holberton School':
+  ensure  => 'file',
   path    => '/var/www/html/index.html',
-  line    => "Holberton School\n",
+  content => 'Holberton School',
   require => Package['nginx'],
 }
 
