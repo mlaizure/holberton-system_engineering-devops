@@ -1,16 +1,16 @@
 #!/usr/bin/env bash
 # displays information about subdomains
 func () {
-	FULLSUB="${1}.iamthenight.tech"
+	FULLSUB="${1}.${2}"
 	dig $FULLSUB | awk -v subd="$1" '/ANSWER SECTION:/{getline; print "The subdomain "subd" is a "$4" record and points to "$5}'
 }
 
 if [ "$#" -lt 2 ]
 then
-	func "www"
-	func "lb-01"
-	func "web-01"
-	func "web-02"
+	func "www" "$1"
+	func "lb-01" "$1"
+	func "web-01" "$1"
+	func "web-02" "$1"
 else
-	func "$2"
+	func "$2" "$1"
 fi
