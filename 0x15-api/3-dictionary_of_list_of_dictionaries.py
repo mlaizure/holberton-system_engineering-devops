@@ -9,7 +9,8 @@ if __name__ == "__main__":
     users = requests.get(user_url).json()
 
     all_dict = {}
-    for i, user in enumerate(users):
+    i = 1
+    for user in users:
         todo_url = ('https://jsonplaceholder.typicode.com/users/'
                     '{}/todos'.format(i))
         tasks = requests.get(todo_url).json()
@@ -19,6 +20,7 @@ if __name__ == "__main__":
                       'username': user.get('username')}
                      for task in tasks]
         all_dict[user.get('id')] = user_list
+        i += 1
 
     json_string = json.dumps(all_dict)
     filename = 'todo_all_employees.json'
