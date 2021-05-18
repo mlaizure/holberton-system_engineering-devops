@@ -3,7 +3,7 @@
 
 
 def recurse(subreddit, hot_list=[], after=None):
-    """prints titles of first 10 hot posts for a given subreddit"""
+    """makes list of all hot posts for a given subreddit"""
     import requests
 
     if not after:
