@@ -9,7 +9,7 @@ def number_of_subscribers(subreddit):
     url = 'https://api.reddit.com/r/{}/about/'.format(subreddit)
 
     sub_info = requests.get(url,
-                            headers={"user-agent" : "user"},
+                            headers={"user-agent": "user"},
                             allow_redirects=False).json()
 
     if 'data' in sub_info:
