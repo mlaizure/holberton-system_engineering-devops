@@ -14,7 +14,12 @@ def count_words(subreddit, word_list, after=None, counts={}):
 
     sub_info = requests.get(url,
                             headers={"user-agent": "user"},
-                            allow_redirects=False).json()
+                            allow_redirects=False)
+
+    try:
+        sub_info = sub_info.json()
+    except:
+        return None
 
     if 'data' not in sub_info:
         return None
